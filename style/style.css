@@ -7,6 +7,7 @@
 
 h1 {
   font-size: 2em;
+  font-weight: 600;
 }
 
 h2 {
@@ -209,7 +210,6 @@ p {
   flex-direction: column;
   margin: 2rem 0;
   gap: 30px;
-  padding: 2rem 4rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 3px 3px 1px 1px pink;
   flex-grow: 1;
@@ -233,9 +233,14 @@ p {
 }
 
 .img__skill {
-  width: 4rem;
+  width: 3rem;
   margin-bottom: 2rem;
   object-fit: cover;
+  margin: 2rem 2rem;
+}
+
+.li__item-skill > h3 {
+  margin: 0 0 1rem 0;
 }
 
 .div__hobbies {
