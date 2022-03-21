@@ -29,7 +29,7 @@
             <li><a href="#">Skills</a></li>
             <li><a href="#">Formación</a></li>
             <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#" id="contacto">Contacto</a></li>
           </ul>
         </navbar>
       </header>
@@ -81,11 +81,17 @@
         <div class="div__proyectos">
           <h2>Proyectos</h2>
         </div>
-        <div class="div__contacto">
+        <div class="div__contacto" id="draggable">
+          <div class="div__contacto-fakeheader" id="draggable-bar">
+            <div class="div__circle-red" id="close-form"></div>
+            <div class="div__circle-yellow"></div>
+            <div class="div__circle-green"></div>
+          </div>
           <form class="div__contacto-form">
             <input type="email" placeholder="Email" />
             <input type="text" placeholder="Nombre" />
             <input type="text" placeholder="Escriba su mensaje..." />
+            <button class="button__enviar">Enviar</button>
           </form>
         </div>
       </main>
@@ -96,6 +102,7 @@
         </div>
         <div class="footer__contacto"></div>
       </footer>
+      <script type="text/javascript" src="./app/main.js"></script>
     </body>
   </div>
 </html>
